@@ -1,0 +1,9 @@
+@include('layouts.head')
+<body>
+@include('layouts.header')
+@yield('content')
+@yield('css')
+@yield('scripts')
+@include('layouts.footer')
+</body>
+</html>
